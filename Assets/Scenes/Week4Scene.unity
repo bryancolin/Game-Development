@@ -145,13 +145,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753468236}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b6343a15dfa74ac4b081aec333643be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   redObj: {fileID: 5468979202793275809, guid: b3e640e0c85654a74bc1d75f5c737fd9, type: 3}
-  blueObj: {fileID: 0}
+  blueObj: {fileID: 6842098726419663000, guid: 0dd5f0d40429143efa56483dca70e719, type: 3}
 --- !u!4 &753468238
 Transform:
   m_ObjectHideFlags: 0
