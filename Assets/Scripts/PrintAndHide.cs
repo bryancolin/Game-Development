@@ -18,5 +18,18 @@ public class PrintAndHide : MonoBehaviour
     {
         Debug.Log(gameObject.name + " : " + i);
         i++;
+        SetGameObject();
+    }
+
+    void SetGameObject()
+    {
+        if (gameObject.tag == "Red" && i == 100)
+        {
+            gameObject.SetActive(false);
+        }
+        if (gameObject.tag == "Blue" && (i >= 200 && i <= 250))
+        {
+            gameObject.GetComponentInChildren<Renderer>().enabled = false;
+        }
     }
 }
