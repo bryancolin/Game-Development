@@ -27,7 +27,7 @@ public class PrintAndHide : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
-        if (gameObject.tag == "Blue" && (i >= 200 && i <= 250))
+        if (gameObject.tag == "Blue" && i == UnityEngine.Random.Range(200, 250) ) 
         {
             gameObject.GetComponentInChildren<Renderer>().enabled = false;
         }
